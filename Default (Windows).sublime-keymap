@@ -1,3 +1,4 @@
 [
-	{ "keys": ["ctrl+k", "ctrl+t"], "command": "transpose_args"},
+	{ "keys": ["ctrl+alt+t"], "command": "transpose_args"},
+	{ "keys": ["ctrl+shift+alt+t"], "command": "reverse_transpose_args"},
 ]

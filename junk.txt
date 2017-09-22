@@ -1,0 +1,35 @@
+Hello, World!throw away file
+diosngsoi
+
+first command
+(dog, cat, monkey) -> (monkey, dog, cat)
+second command with shift
+(dog, cat, monkey) -> (cat, monkey, dog)
+
+
+first command
+(cat, monkey, dog) -> (monkey, dog, cat)
+second command with shift
+(dog, cat, monkey) -> (cat, monkey, dog)
+
+(dogs, cat);
+(cat) 
+(cat dog) notice here without commas it still does it could be bad idk but probably
+
+
+
+(bash, python, dog, cat, watermelon, juice, hungry, code, icecream, wheat, git)
+
+NEXT TEST 
+
+(char c, int x, double size, TextView TV)
+
+
+
+NEXT NEXT TEST
+
+space word1 word2 space
+
+idea of this is clicking in between the two things
+it would extend out to the next existing spaces and space placing
+pointer at the end of the next word or remain in middle????
