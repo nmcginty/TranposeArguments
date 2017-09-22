@@ -1,12 +1,13 @@
 # Tranpose Arguments
 Easily Transpose arguments of functions with this Sublime Text 3 Plugin.
 
-
 ## Overview
 
 <!-- Cycle left to right transposition -->
 
 ![tranposeg](https://user-images.githubusercontent.com/16642720/30751380-31d23566-9f87-11e7-9346-b99d18deb05e.gif)
+
+<br/> <br/> 
 
 <!-- Random -->
 ![tranposerandom](https://user-images.githubusercontent.com/16642720/30754119-7e9be3ee-9f8f-11e7-9030-bd2d938425f9.gif)
@@ -74,8 +75,6 @@ Give an example
 ## Versioning
 
 
-## Authors
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -83,8 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * A thank to those who worked on the gist for the README :).
-* Check it out!
+
+* The link below will take you to a great page detailing the importance of a good README. I used their template when designing the one for this plugin. 
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
