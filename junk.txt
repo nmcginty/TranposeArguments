@@ -4,25 +4,32 @@ diosngsoi
 first command
 (dog, cat, monkey) -> (monkey, dog, cat)
 second command with shift
-(dog, cat, monkey) -> (cat, monkey, dog)
+(cat, monkey, ) -> (cat, monkey, dog)
 
 
 first command
-(cat, monkey, dog) -> (monkey, dog, cat)
+(dog, cat, monkey) -> (monkey, dog, cat)
 second command with shift
-(dog, cat, monkey) -> (cat, monkey, dog)
+(cat, monkey, dog) -> (cat, monkey, dog)
 
-(dogs, cat);
-(cat) 
+(dogs, cats);
+(cat ) 
 (cat dog) notice here without commas it still does it could be bad idk but probably
+			not working anymore
 
+(dog)
+spacerun command within ()
+space(git, bash, python, dog, cat, watermelon, juice, hungry, code, icecream, wheat)
 
+spaceNEXT TEST 
 
-(bash, python, dog, cat, watermelon, juice, hungry, code, icecream, wheat, git)
-
-NEXT TEST 
+spaceSINCE A COMMA INSIDE THE FUNCTION() PARENTHESIS MEANS NEW ARGUMENT
+spaceI CAN ASSUME THAT THERE WONT EXIST A COMMA IN THE NAME OF A PARAMETER
+spaceWHICH WOULD BE STUPID
 
 (char c, int x, double size, TextView TV)
+print(")", "final jawn", "(", ', '.join(args))
+
 
 
 
@@ -33,3 +40,8 @@ space word1 word2 space
 idea of this is clicking in between the two things
 it would extend out to the next existing spaces and space placing
 pointer at the end of the next word or remain in middle????
+
+self.view.run_command("expand_selection", {"to":"brackets"})
+
+
+##### write a command that just return everything all randomized
