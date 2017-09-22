@@ -2,32 +2,31 @@ Hello, World!throw away file
 diosngsoi
 
 first command
-(dog, cat, monkey) -> (monkey, dog, cat)
+(dog, cat, monkey) -> (dog, cat, monkey)
 second command with shift
-(cat, monkey, ) -> (cat, monkey, dog)
+(cat, monkey) -> (cat, monkey, dog)
 
 
 first command
-(dog, cat, monkey) -> (monkey, dog, cat)
+(monkey, dog, cat) -> (monkey, dog, cat)
 second command with shift
 (cat, monkey, dog) -> (cat, monkey, dog)
 
-(dogs, cats);
+(animals, cactus, dogs, cats);
 (cat ) 
 (cat dog) notice here without commas it still does it could be bad idk but probably
 			not working anymore
 
-(dog)
+(cat, dog)
 spacerun command within ()
-space(git, bash, python, dog, cat, watermelon, juice, hungry, code, icecream, wheat)
-
-spaceNEXT TEST 
+space(juice, hungry, code, icecream, wheat, git, bash, python, dog, cat, watermelon)
+run command within (spac)eNEXT TEST 
 
 spaceSINCE A COMMA INSIDE THE FUNCTION() PARENTHESIS MEANS NEW ARGUMENT
 spaceI CAN ASSUME THAT THERE WONT EXIST A COMMA IN THE NAME OF A PARAMETER
 spaceWHICH WOULD BE STUPID
 
-(char c, int x, double size, TextView TV)
+(double size, TextView TV, int x, char c)
 print(")", "final jawn", "(", ', '.join(args))
 
 

@@ -23,11 +23,13 @@ class TransposeArgsCommand(sublime_plugin.TextCommand):
 	def tranposeArg(selectionText):
 		
 		#still have to fix this
-		if(", " not in selectionText): #no space means argument < 2 
+		if("," not in selectionText): #no space means argument < 2 
 			return selectionText
 
-		args = selectionText.split(", ")
+		args = selectionText.split(",")
 		args.insert(0, args.pop())
+
+		args = [arg.strip() for arg in args]
 				
 		print("finalList", args)
 
@@ -43,22 +45,23 @@ class ReverseTransposeArgsCommand(sublime_plugin.TextCommand):
 
 		if(not sel.empty()):
 			self.view.run_command("left_delete")
-			self.view.insert(edit, self.view.sel()[0].begin(), tranposedText)
+			self.view.insert(edit, sel.begin(), tranposedText)
 
 		else:
-			self.view.insert(edit, self.view.sel()[0].begin(), "run command within ()")
+			self.view.insert(edit, sel.begin(), "run command within ()")
 
 
 	@staticmethod
 	def reverseTranposeArg(selectionText):
 
 		#still have to fix this
-		if(", " not in selectionText): #no space means argument < 2 
+		if("," not in selectionText): #no space means argument < 2 
 			return selectionText
 
-		args = selectionText.split(", ")
+		args = selectionText.split(",")
 		# args.insert(0, args.pop())
 		args.append(args.pop(0))
+		args = [arg.strip() for arg in args]
 				
 		print("finalList", args)
 
