@@ -12,14 +12,14 @@ first command
 second command with shift
 (cat, monkey, dog) -> (cat, monkey, dog)
 
-(animals, cactus, dogs, cats);
+(cats, animals, cactus, dogs);
 (cat ) 
 (cat dog) notice here without commas it still does it could be bad idk but probably
 			not working anymore
 
 (cat, dog)
 spacerun command within ()
-space(juice, hungry, code, icecream, wheat, git, bash, python, dog, cat, watermelon)
+space(python, cat, git, watermelon, icecream, hungry, wheat, bash, juice, dog, code)
 run command within (spac)eNEXT TEST 
 
 spaceSINCE A COMMA INSIDE THE FUNCTION() PARENTHESIS MEANS NEW ARGUMENT

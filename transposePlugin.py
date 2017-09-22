@@ -1,9 +1,5 @@
-import sublime, sublime_plugin
-from subprocess import call
-
-# class ExampleCommand(sublime_plugin.TextCommand):
-# 	def run(self, edit):
-# 		self.view.insert(edit, self.view.sel()[0].begin(), "Hello, World!")
+import sublime, sublime_plugin, random
+# from subprocess import call
 
 class TransposeArgsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
@@ -38,7 +34,6 @@ class TransposeArgsCommand(sublime_plugin.TextCommand):
 
 class ReverseTransposeArgsCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
-
 		self.view.run_command("expand_selection" , {"to": "brackets"})
 		sel = self.view.sel()[0]
 		tranposedText = self.reverseTranposeArg(self.view.substr(sel))
@@ -67,6 +62,36 @@ class ReverseTransposeArgsCommand(sublime_plugin.TextCommand):
 
 		print("final jawn", "(", ', '.join(args), ")")
 		return ', '.join(args)
+
+class RandTransposeCommand(sublime_plugin.TextCommand):
+	def run(self, edit):
+		self.view.run_command("expand_selection" , {"to": "brackets"})
+		sel = self.view.sel()[0]
+		tranposedText = self.randTranspose(self.view.substr(sel))
+
+		if(not sel.empty()):
+			self.view.run_command("left_delete")
+			self.view.insert(edit, sel.begin(), tranposedText)
+
+		else:
+			self.view.insert(edit, sel.begin(), "run command within ()")
+
+	@staticmethod
+	def randTranspose(selectionText):
+		#still have to fix this
+		if("," not in selectionText): #no space means argument < 2 
+			return selectionText
+
+		args = selectionText.split(",")
+		random.shuffle(args) #randomizes array
+
+		args = [arg.strip() for arg in args]
+				
+		print("finalList", args)
+
+		print("final jawn", "(", ', '.join(args), ")")
+		return ', '.join(args)
+
 
 
 		#must do this next
