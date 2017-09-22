@@ -2,78 +2,47 @@
 Easily Transpose arguments of functions with this Sublime Text 3 Plugin.
 
 ## Overview
+For now the commands will work within parentheses
 
 <!-- Cycle left to right transposition -->
 
 ![tranposeg](https://user-images.githubusercontent.com/16642720/30751380-31d23566-9f87-11e7-9346-b99d18deb05e.gif)
 
-<br/> <br/> 
+<br/> 
 
 <!-- Random -->
+
 ![tranposerandom](https://user-images.githubusercontent.com/16642720/30754119-7e9be3ee-9f8f-11e7-9030-bd2d938425f9.gif)
 
-# Project Title
+## Installing
 
-One Paragraph of project description goes here
+### Package Control
+Installation through [package control](http://wbond.net/sublime_packages/package_control) is recommended. It will handle updating your packages as they become available. To install, do the following.
 
-## Getting Started
+* In the Command Palette, enter `Package Control: Install Package`
+<!-- * Search for `TransposeArguments` to see the list of available commands -->
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Keymaps
 
-### Prerequisites
+### Windows
 
-What things you need to install the software and how to install them
+`ctrl+alt+t`: Transpose arguments left --> right
 
-```
-Give examples
-```
+`ctrl+shift+alt+t`: Transpose arguments right --> left 
 
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
+`ctrl+alt+r`: Random Transposition
 
 
-## Contributing
+### OS X and Linux
+The super keys for Linux and OS X are the Windows and command key respectively.
 
+`super+alt+t`: Transpose arguments left --> right
+
+`super+shift+alt+t`: Transpose arguments right --> left 
+
+`super+alt+r`: Random Transposition
 
 ## Versioning
-
 
 ## License
 
