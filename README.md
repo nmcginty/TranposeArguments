@@ -44,6 +44,10 @@ The super keys for Linux and OS X are the Windows and command key respectively.
 
 ## Versioning
 
+## Supported
+`char foo(long size, (int x, int y))`: an instance like this would not be supported unless you are trying to transpose arguemnts; x & y
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

@@ -1,4 +1,0 @@
-[
-	{ "keys": ["super+option+t"], "command": "transpose_args"},
-	{ "keys": ["super+shift+option+t"], "command": "reverse_transpose_args"},
-]
