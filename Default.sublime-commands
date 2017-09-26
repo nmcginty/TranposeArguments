@@ -1,5 +1,8 @@
 [
+	
   { "caption": "Tranpose Args", "command": "transpose_args" },
   { "caption": "Reverse Tranpose Args", "command": "reverse_transpose_args" },
   { "caption": "Random Tranpose Args", "command": "rand_transpose"},
+  { "caption": "Select All Args", "command": "select_all_args"},
+
 ]

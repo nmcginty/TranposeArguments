@@ -7,13 +7,104 @@ second command with shift
 (cat, monkey) -> (cat, monkey, dog)
 
 
+
+self.view.run_command("expand_selection" , {"to": "brackets"})
+selection = self.view.sel() #list of all current selections / cursors
+
+for sel in selection:
+	if(not sel.empty()):
+		tranposedText = self.reverseTranposeArg(self.view.substr(sel))
+		self.view.replace(edit, sel, tranposedText)
+
+	else:
+		self.view.replace(edit, sel, "run command within ()")
+		
+#sets cursor(s) back to beginning	
+self.view.run_command("move" , {"by": "characters", "forward": False})
+
+
+
+
+
+
+
+
+
+
+
+
 first command
-(monkey, dog, cat) -> (monkey, dog, cat)
+(cat, monkey, dog) -> (monkey, dog, cat)
 second command with shift
 (cat, monkey, dog) -> (cat, monkey, dog)
 
 (animals, dogs, cactus, cats);
+(cats, animals, dogs, cactus);
+(cactus, cats, animals, dogs); (cats, animals, dogs, cactus);
+dogs), (cactus, cats, animals;
+
+run command within ()run command within run command within ()()
+(cactus, cats, animals, dogs);
+
+(dogs, cactus, cats, animals);
+
+
+(animals, dogs, cactus, cats);
+(dogs, cactus, cats, animals);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(dogs, cactus, cats, animals);
+(animals, dogs, cactus, cats);
+(animals, run command within ()cactus, run command within ()cats, run command within ()dogs);
+(animals, run command within ()dogs, run command within ()cactus, run command within ()cats);
+(cats, dogs, animals, cactus);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+(animals, dogs, cactus, cats);
+;
+
+pretty quickly this can be done
+(x,y,z,size,length) -> (int x, int y, int z, int size, int length)
+
+(double depth, double size, double length, double width, double volume)
+
+(TextView hello world, TextView hello world, TextView hello world, TextView hello world, TextView hello world) -> (int x, int y, int z, int size, int length)
+(y, x, size, z, length) -> (int x, int y, int z, int size, int length)
+(x, z, y, length, size) -> (int x, int y, int z, int size, int length)
+(length, y, size, z, x) -> (int x, int y, int z, int size, int length)
+
 (cat ) 
+
 (cat dog) notice here without commas it still does it could be bad idk but probably
 			not working anymore
 
@@ -23,9 +114,10 @@ spacerun command within ()
 
  the quic brown fox jumps 
 
-space(dog, cat, code, git,          
+space(cat, python, git, hungry, wheat, code, icecream, bash, dog, juice, watermelon)
 
-     watermelon, python, juice,       icecream, wheat, hungry, bash)
+
+space(cat, python, git, hungry, wheat, code, icecream, bash, dog, juice, watermelon)
 
 
 

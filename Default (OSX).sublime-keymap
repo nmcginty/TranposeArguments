@@ -2,4 +2,5 @@
 	{ "keys": ["super+alt+t"], "command": "transpose_args"},
 	{ "keys": ["super+shift+alt+t"], "command": "reverse_transpose_args"},
 	{ "keys": ["super+alt+r"], "command": "rand_transpose"},
+	{ "keys": ["super+alt+a"], "command": "select_all_args"},
 ]
