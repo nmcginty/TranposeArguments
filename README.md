@@ -26,7 +26,10 @@ Installation through [package control](http://wbond.net/sublime_packages/package
 
 * Please download the  **MarkAndMove** to enable the `Select All Args` - [MarkAndMove](https://github.com/colinta/SublimeMarkAndMove)
 
-* Along with this make sure to set the `mark_and_move_do_it_all` command in your personal key bindings. `Sublime Tool Bar --> Prefences --> Key Bindings`.
+* This can easily be downloaded from `Package Control`. Just search for MarkAndMove.
+
+* Along with this make sure to set the `mark_and_move_do_it_all` command in your personal key bindings. 
+* `Sublime Tool Bar --> Prefences --> Key Bindings`.
 
 * I have mine set as `ctrl+alt+m`. This can whatever you like just make sure whatever you decide doesn't conflict with another command.
 
