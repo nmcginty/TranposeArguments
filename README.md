@@ -32,6 +32,8 @@ Installation through [package control](http://wbond.net/sublime_packages/package
 
 `ctrl+alt+r`: Random Transposition
 
+`ctrl+alt+a`: Select All Arguments --> need to download special package for this
+
 
 ### OS X and Linux
 The super keys for Linux and OS X are the Windows and command key respectively.
@@ -41,6 +43,8 @@ The super keys for Linux and OS X are the Windows and command key respectively.
 `super+shift+alt+t`: Transpose arguments right --> left 
 
 `super+alt+r`: Random Transposition
+
+`super+alt+a`: Select All Arguments --> need to download special package for this
 
 ## Versioning
 
