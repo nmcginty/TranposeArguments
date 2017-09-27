@@ -4,7 +4,7 @@ int partition(int low, int high, int arr[])
 int partition(low, high, arr[])
 for(java, c, c++, fox, dog, word, cat[], python)
 
-for(int dog, int word, int cat, int python, int java, int c, int fox)
+for(dog, word, cat, python, java, c, fox)
  
 
 myList = 
