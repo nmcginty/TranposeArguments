@@ -58,4 +58,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * The link below will take you to a great page detailing the importance of a good README. I used their template when designing the one for this plugin. 
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
