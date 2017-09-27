@@ -44,7 +44,7 @@ second command with shift
 dogs), (cactus, cats, animals;
 
 run command within ()run command within run command within ()()
-(cactus, cats, animals, dogs);
+(animals, cats, cactus, dogs);
 
 (dogs, cactus, cats, animals);
 
