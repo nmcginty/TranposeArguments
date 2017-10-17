@@ -37,7 +37,11 @@ myList =
 
 
 
-(int dog, int cat, int python, int java, int c, int php, int code, int language, int cat, int dog, int cat, int python, int java, int c, int php, int c
+(double dog, double cat, double python, double java, double c, double php, double code, double language, double cat) 
+
+
+
+(int dog, int cat, int python, int java, int c, int php, int c
 
 
 	ode, int language, int hey, int dog, int cat, int python, int java, int c, int php, int code, int language, int hey, int dog, int cat, int python, int java, int c, int php, int code, int language, int cat, int dog, int cat, int python, int java, int c, int php, int code, int language, int cat, int dog, int cat, int python, int java, int c, int php, int code, int language, int hey, int dog, int cat, int python, int java, int c, int php, int code, int language, int hey, int dog, int cat, int python, int java, int c, int php, int code, int language, int cat)
