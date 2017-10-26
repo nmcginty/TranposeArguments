@@ -59,7 +59,7 @@ The super keys for Linux and OS X are the Windows and command key respectively.
 
 `super+alt+a`: Select All Arguments --> need to download special package for this
 
-## Versioning
+<!-- ## Versioning -->
 
 ## Supported
 `char foo(long size, (int x, int y))`: an instance like this would not be supported unless you are trying to transpose arguments; x & y
