@@ -14,6 +14,10 @@ For now the commands will work within parentheses
 
 ![tranposerandom](https://user-images.githubusercontent.com/16642720/30754119-7e9be3ee-9f8f-11e7-9030-bd2d938425f9.gif)
 
+<!-- Select All Arguments -->
+
+![selectall](https://user-images.githubusercontent.com/16642720/32073427-ff610006-ba63-11e7-984b-942f5a419c1e.gif)
+
 ## Installing
 
 ### Package Control
@@ -67,8 +71,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* A thank to those who worked on the gist for the README :).
-
 * The link below will take you to a great page detailing the importance of a good README. I used their template when designing the one for this plugin. 
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)

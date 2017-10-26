@@ -16,6 +16,24 @@ myList =
 	"dog", "word", "cat", "python", "java", "c", "fox"
 ]
 
+int partition(int a[], int start, int end);
+
+
+
+
+int partition(int a[], int start, int end);
+
+int partition(double a, int b, int c)
+
+
+
+
+int partition(int a[], int start, int end)
+
+
+
+
+
 
 
 //another test here good
@@ -26,6 +44,13 @@ myList =
 // for(   int dog,      int      word,     int    cat, int python, int java, int c, int fox)
 // 6 commas in the thing above
 // for(java, c, fox, dog, word, cat, python)
+
+
+
+
+
+
+
 
 
 
